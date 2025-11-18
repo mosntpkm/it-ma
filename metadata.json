@@ -1,0 +1,7 @@
+{
+  "name": "IT Support Maintenance Log",
+  "description": "An application for IT support staff to log computer maintenance records, including photos, to analyze issues across different computer models. Supports both uploading images and capturing photos directly from a mobile device.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,7 @@
+# This project does not currently require any environment variables.
+# If any are added in the future (e.g., for an API endpoint),
+# their keys should be listed here.
+
+# Example:
+# API_BASE_URL
+# NEXT_PUBLIC_ANALYTICS_ID
