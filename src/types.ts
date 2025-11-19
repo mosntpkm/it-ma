@@ -1,3 +1,4 @@
+
 export enum LogStatus {
   REPORTED = 'Reported',
   IN_PROGRESS = 'In Progress',
@@ -19,3 +20,5 @@ export interface MaintenanceLog {
   imageUrl?: string;
   logDate: string;
 }
+
+export interface CreateLogDTO extends Omit<MaintenanceLog, 'id' | 'logDate'> {}

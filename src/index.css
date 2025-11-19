@@ -1,14 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Tailwind is now loaded via CDN in index.html to ensure reliability in this environment */
 
-@layer base {
-  body {
-    @apply bg-slate-100 text-slate-800 antialiased;
-  }
-}
-
-/* For Webkit-based browsers (Chrome, Safari, etc.) */
+/* Custom Scrollbar for Webkit-based browsers (Chrome, Safari, etc.) */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
